@@ -1,0 +1,24 @@
+Bundle-SymbolicName: org.springframework.transaction
+Bundle-Name: Spring Transaction
+Bundle-Vendor: SpringSource
+Bundle-ManifestVersion: 2
+Import-Template: 
+ com.ibm.*;version="0";resolution:="optional",
+ javax.ejb.*;version="[3.0.0, 4.0.0)";resolution:="optional",
+ javax.resource.*;version="[1.5.0, 2.0.0)";resolution:="optional",
+ javax.transaction.*;version="[1.1.0, 2.0.0)";resolution:="optional",
+ org.aopalliance.*;version="[1.0.0, 2.0.0)";resolution:="optional",
+ org.apache.commons.logging;version="[1.1.1, 2.0.0)",
+ org.springframework.aop.*;version="[3.2.10.RELEASE, 3.2.10.RELEASE]";resolution:="optional",
+ org.springframework.beans.*;version="[3.2.10.RELEASE, 3.2.10.RELEASE]",
+ org.springframework.context.*;version="[3.2.10.RELEASE, 3.2.10.RELEASE]";resolution:="optional",
+ org.springframework.core.*;version="[3.2.10.RELEASE, 3.2.10.RELEASE]",
+ org.springframework.jndi.*;version="[3.2.10.RELEASE, 3.2.10.RELEASE]";resolution:="optional",
+ org.springframework.scheduling.*;version="[3.2.10.RELEASE, 3.2.10.RELEASE]";resolution:="optional",
+ org.springframework.stereotype.*;version="[3.2.10.RELEASE, 3.2.10.RELEASE]";resolution:="optional",
+ org.springframework.util.*;version="[3.2.10.RELEASE, 3.2.10.RELEASE]"
+Import-Package: 
+ javax.management;version="0";resolution:="optional",
+ javax.naming;version="0";resolution:="optional",
+ org.w3c.dom;version="0";resolution:="optional"
+

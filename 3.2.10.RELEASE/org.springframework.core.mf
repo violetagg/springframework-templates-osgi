@@ -1,0 +1,26 @@
+Bundle-SymbolicName: org.springframework.core
+Bundle-Name: Spring Core
+Bundle-Vendor: SpringSource
+Bundle-ManifestVersion: 2
+Import-Template: 
+ joptsimple;version="[3.0.0, 4.0.0)";resolution:="optional",
+ net.sf.cglib.*;version="[3.3.0, 4.0.0)";resolution:="optional",
+ org.apache.commons.logging;version="[1.1.1, 2.0.0)",
+ org.apache.log4j.*;version="[1.2.17, 2.0.0)";resolution:="optional",
+ org.apache.tools.ant.*;version="[1.7.0, 2.0.0)";resolution:="optional",
+ org.aspectj.*;version="[1.7.4, 2.0.0)";resolution:="optional",
+ org.objectweb.asm.*;version="[3.2.0, 4.0.0)";resolution:="optional",
+ org.springframework.asm.tree;version="[3.2.10.RELEASE, 3.2.10.RELEASE]";resolution:="optional"
+Import-Package: 
+ javax.xml.namespace;version="0";resolution:="optional",
+ javax.xml.stream;version="0";resolution:="optional",
+ javax.xml.stream.events;version="0",
+ javax.xml.stream.util;version="0",
+ javax.xml.transform;version="0";resolution:="optional",
+ javax.xml.transform.sax;version="0",
+ javax.xml.transform.stax;version="0",
+ org.w3c.dom;version="0";resolution:="optional",
+ org.xml.sax;version="0";resolution:="optional",
+ org.xml.sax.ext;version="0";resolution:="optional",
+ org.xml.sax.helpers;version="0";resolution:="optional"
+
